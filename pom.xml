@@ -14,7 +14,7 @@
     </parent>
     <groupId>dupradosantini</groupId>
     <artifactId>du-pet-clinic</artifactId>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.3</version>
     <name>du-pet-clinic</name>
     <description>du-pet-clinic</description>
     <properties>
@@ -47,7 +47,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/dupradosantini/du-pet-clinic.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>du-pet-clinic-0.0.3</tag>
   </scm>
 
 </project>
