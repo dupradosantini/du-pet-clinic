@@ -49,5 +49,4 @@
         <developerConnection>scm:git:https://github.com/dupradosantini/du-pet-clinic.git</developerConnection>
       <tag>HEAD</tag>
   </scm>
-
 </project>
