@@ -1,4 +1,4 @@
-package dupradosantini.dupetclinic.model;
+package dupradosantini.model;
 
 import java.time.LocalDate;
 

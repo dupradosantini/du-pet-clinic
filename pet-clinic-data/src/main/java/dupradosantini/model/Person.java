@@ -1,4 +1,4 @@
-package dupradosantini.dupetclinic.model;
+package dupradosantini.model;
 
 public class Person {
     private String firstName;
