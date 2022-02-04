@@ -2,7 +2,7 @@ package dupradosantini.model;
 
 import java.time.LocalDate;
 
-public class Pet {
+public class Pet extends BaseEntity{
     //Fields
     private PetType petType;
     private Owner owner;
