@@ -2,9 +2,11 @@ package dupradosantini.services.map;
 
 import dupradosantini.model.Pet;
 import dupradosantini.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService{
 
     @Override

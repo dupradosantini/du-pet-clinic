@@ -4,8 +4,6 @@ import dupradosantini.model.Owner;
 import dupradosantini.model.Vet;
 import dupradosantini.services.OwnerService;
 import dupradosantini.services.VetService;
-import dupradosantini.services.map.OwnerServiceMap;
-import dupradosantini.services.map.VetServiceMap;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -15,10 +13,10 @@ public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetService vetService;
 
-
-    public DataLoader() {
-        ownerService = new OwnerServiceMap();
-        vetService = new VetServiceMap();
+    //Being Autowired and managed by Spring.
+    public DataLoader(OwnerService ownerService, VetService vetService) {
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
 
     @Override
